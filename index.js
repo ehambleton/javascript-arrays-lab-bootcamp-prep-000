@@ -9,3 +9,12 @@ function destructivelyRemoveLastKitten() {
 kittens.pop()
 return kittens
 }
+
+function destructivelyRemoveFirstKitten() {
+  kitten.shift()
+}
+
+function appendKitten(name) {
+newArray = kitten.unshift(name)
+return newArray
+}
