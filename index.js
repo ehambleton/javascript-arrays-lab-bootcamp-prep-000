@@ -16,10 +16,10 @@ return kittens
 }
 
 function destructivelyRemoveFirstKitten() {
-  kitten.shift()
+  kittens.shift()
 }
 
 function appendKitten(name) {
-newArray = kitten.unshift(name)
+newArray = kittens.unshift(name)
 return newArray
 }
